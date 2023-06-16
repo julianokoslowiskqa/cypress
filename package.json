@@ -13,5 +13,8 @@
     "cypress:run": "cypress run"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1"
+  }
 }
