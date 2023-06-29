@@ -29,11 +29,14 @@
     "type": "git",
     "url": "git+https://github.com/julianokoslowiskqa/cypress.git"
   },
- /*"keywords": [],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/adriano-fantinelli/cypress/issues"
   },
-  "homepage": "https://github.com/adriano-fantinelli/cypress#readme"*/
+  "homepage": "https://github.com/adriano-fantinelli/cypress#readme",
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1"
+  }
 }

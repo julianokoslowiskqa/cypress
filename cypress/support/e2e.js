@@ -1,4 +1,5 @@
 import './commands'
+import 'cypress-plugin-api'
 require('cypress-grep')()
 require('@shelex/cypress-allure-plugin');
 

@@ -1,5 +1,5 @@
 Cypress.Commands.add("getActivitiesApi", () => {
-    cy.request({
+    cy.api({
         method: "GET",
         url: `${Cypress.env("activitiesUrl")}`,
         headers: {
@@ -10,7 +10,7 @@ Cypress.Commands.add("getActivitiesApi", () => {
 })
 
 Cypress.Commands.add("getActivityApi", (id) => {
-    cy.request({
+    cy.api({
         method: "GET",
         url: `${Cypress.env("activitiesUrl")}` + "/" + id,
         headers: {
@@ -21,7 +21,7 @@ Cypress.Commands.add("getActivityApi", (id) => {
 })
 
 Cypress.Commands.add("postActivityApi", (id, title, dueDate, completed) => {
-    cy.request({
+    cy.api({
         method: "POST",
         url: `${Cypress.env("activitiesUrl")}`,
         headers: {
@@ -38,7 +38,7 @@ Cypress.Commands.add("postActivityApi", (id, title, dueDate, completed) => {
 })
 
 Cypress.Commands.add("deleteActivityApi", (id) => {
-    cy.request({
+    cy.api({
         method: "DELETE",
         url: `${Cypress.env("activitiesUrl")}` + "/" + id,
         headers: {
@@ -49,7 +49,7 @@ Cypress.Commands.add("deleteActivityApi", (id) => {
 })
 
 Cypress.Commands.add("putActivityApi", (id, title, dueDate, completed) => {
-    cy.request({
+    cy.api({
         method: "PUT",
         url: `${Cypress.env("activitiesUrl")}` + "/" + id,
         headers: {
