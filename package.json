@@ -26,7 +26,8 @@
     "cy:open": "npx cypress open",
     "cy:run": "npx cypress run",   
     "test:ui": "npx cypress open",
-    "test:api": "npx cypress run --spec 'cypress/e2e/api'"
+    "test:api": "npx cypress run --spec 'cypress/e2e/api'",
+    "teste:dashboard": "npx cypress run --record --key 8b9a7de7-794d-44a8-912d-9c464a03c7b7"
     
   },
   "repository": {

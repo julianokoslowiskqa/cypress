@@ -3,7 +3,7 @@ const { defineConfig } = require('cypress')
 module.exports = defineConfig({
   env: {
     activitiesUrl: 'http://fakerestapi.azurewebsites.net/api/v1/Activities',
-    allure: true,
+    allure: false,
   },
   viewportWidth: 1920,
   viewportHeight: 1080,
