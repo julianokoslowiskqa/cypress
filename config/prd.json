@@ -1,0 +1,18 @@
+{
+    "baseUrl": "http://producao.com.br",
+    "env": {
+        "activitiesUrl": "http://producao.com.br",
+        "allure": true
+    },
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+    },
+    "projectId": "pqrhjz"
+}
