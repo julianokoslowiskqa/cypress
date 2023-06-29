@@ -11,4 +11,4 @@ jobs:
       - name: Cypress run 
         uses: cypress-io/github-action@v5
         with:
-          command: npm run test:api
+          command: npx cypress run --spec 'cypress/e2e/api'
