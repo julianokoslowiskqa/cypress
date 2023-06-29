@@ -19,7 +19,8 @@
     "mongodb": "^3.6.3",
     "mongoose": "^5.7.5",
     "node-fetch": "^2.6.1",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "cypress-plugin-api": "^2.11.1"
   },
   "scripts": {
     "cy:open": "npx cypress open",
@@ -34,12 +35,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adriano-fantinelli/cypress/issues"
-  },
-  "homepage": "https://github.com/adriano-fantinelli/cypress#readme",
+  "license": "ISC",  
+  "homepage": "https://github.com/julianokoslowiskqa/cypress#readme",
   "dependencies": {
-    "cypress-plugin-api": "^2.11.1"
+    
   }
 }
