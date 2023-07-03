@@ -11,9 +11,8 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           browser: chrome 
-          name: Firefox
-          on: push    
-               
+            
+
   firefox:
    runs-on: ubuntu-22.04
    name: E2E on Firefox
@@ -22,8 +21,7 @@ jobs:
     - uses: cypress-io/github-action@v5
       with:
         browser: firefox
-        name: Edge
-        on: push     
+            
 
   edge:
    runs-on: ubuntu-22.04
