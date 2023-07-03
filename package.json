@@ -15,7 +15,6 @@
     "express": "^4.17.1",
     "joi": "17.2.1",
     "mocha": "^7.2.0",
-    "mochawesome-report-generator": "^4.1.0",
     "mongodb": "^3.6.3",
     "mongoose": "^5.7.5",
     "node-fetch": "^2.6.1",
