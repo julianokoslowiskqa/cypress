@@ -22,8 +22,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       return require('./cypress/plugins/index.js')(on, config)
     },
-    baseUrl:
-      'http://automationpractice.com/index.php?controller=authentication&back=my-account',
-    specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
+  //  baseUrl:
+  //    'http://automationpractice.com/index.php?controller=authentication&back=my-account',
+  specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
   },
 })
