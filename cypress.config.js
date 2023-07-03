@@ -6,15 +6,7 @@ module.exports = defineConfig({
     allure: false,
   },
   viewportWidth: 1920,
-  viewportHeight: 1080,
-  reporter: 'mochawesome',
-  reporterOptions: {
-    reportDir: 'cypress/report/mochawesome-report',
-    overwrite: false,
-    html: false,
-    json: false,
-    timestamp: 'mmddyyyy_HHMMss',
-  },
+  viewportHeight: 1080, 
   projectId: "4fn611",
   e2e: {
     // We've imported your old cypress plugins here.
